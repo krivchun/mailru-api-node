@@ -1,6 +1,6 @@
 {
-  "name": "ok.ru",
-  "version": "1.2.0",
+  "name": "mailru-api-node",
+  "version": "0.1.0",
   "title": "Mail.ru REST API client for node",
   "description": "Mail.ru REST API client for node",
   "keywords": [
