@@ -1,0 +1,1 @@
+Mail.ru REST API client for node
