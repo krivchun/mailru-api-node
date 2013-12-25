@@ -1,0 +1,34 @@
+{
+  "name": "ok.ru",
+  "version": "1.2.0",
+  "title": "Mail.ru REST API client for node",
+  "description": "Mail.ru REST API client for node",
+  "keywords": [
+    "api",
+    "rest",
+		"my.mail.ru",
+    "api.mail.ru"
+  ],
+  "author": "Sergio Laminelli <i@astronz.ru>",
+  "homepage": "https://github.com/astronz/mailru-api-node",
+  "main": "index",
+  "dependencies": {
+    "request": "2.27.0",
+    "underscore": "~1.4.x",
+    "blueimp-md5": "~1.0.3"
+  },
+  "devDependencies": {
+    "coffee-script": "1.6.x",
+    "mocha": "*",
+    "chai": "*",
+    "js-yaml": "2.1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/astronz/mailru-api-node"
+  },
+  "bugs": "https://github.com/astronz/mailru-api-node/issues",
+  "engines": {
+    "node": ">= 0.4.1"
+  }
+}
