@@ -1,19 +1,17 @@
-qs = require('querystring'); request = require('request')
-_ = require('underscore')
-md5 = require('blueimp-md5').md5
+request = require('request')
+md5     = require('blueimp-md5').md5
+qs      = require('querystring')
+_       = require('underscore')
 
 # Default options
 requestOptions =
   applicationSecretKey: null
-  applicationKey: null
   applicationId: null
   sessionKey: null
   refreshToken: null
   # Default base urls where request's go
   restBase: 'http://www.appsmail.ru/platform/api'
   refreshBase: 'https://appsmail.ru/oauth/token'
-
-exports.version = '0.1.0'
 
 # It's like that and that's the way it is
 class MailruApi
@@ -97,7 +95,7 @@ _responseHandler = (error, response, body, callback) ->
   if error? # HTTP error
     callback(error, body, response)
   else
-    error = body if body.hasOwnProperty('error_code') # API error
+    error = body.error if body.hasOwnProperty('error') # API error
     callback(error, body, response)
 
 #
