@@ -1,6 +1,6 @@
 {
   "name": "mailru-api",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "title": "Mail.ru REST API client for node",
   "description": "Mail.ru REST API client for node",
   "keywords": [
@@ -13,15 +13,15 @@
   "homepage": "https://github.com/astronz/mailru-api-node",
   "main": "index",
   "dependencies": {
-    "request": "2.27.0",
-    "underscore": "~1.4.x",
-    "blueimp-md5": "~1.0.3"
+    "request": "~ 2.27.0",
+    "underscore": ">= 1.4.x",
+    "blueimp-md5": "~ 1.0.3"
   },
   "devDependencies": {
     "coffee-script": "1.6.x",
     "mocha": "*",
     "chai": "*",
-    "js-yaml": "2.1.x"
+    "js-yaml": "~ 2.x.x"
   },
   "repository": {
     "type": "git",
